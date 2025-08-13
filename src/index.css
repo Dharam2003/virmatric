@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small brand helpers */
+:root{
+  --virmatric-blue: #1E88E5;
+  --virmatric-yellow: #FFB300;
+  --virmatric-dark: #333333;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+/* hero subtle background helper if needed */
+.hero-bg {
+  background: linear-gradient(90deg, rgba(30,136,229,0.06), rgba(255,179,0,0.03));
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8fafc;
+}
